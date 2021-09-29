@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+:root{
+    --first-color: #93C5FD;
+    --secondary-color : white;
+    --font-color: #1D4ED8;  
+}
+body{
+    font-family: 'Cookie', cursive;
+    color: var(--font-color)
+}
+ .nav-heading{
+    display: block;
+    text-align: center;
+    margin: 0rem auto;
+    padding: 2rem;
+    font-size: xx-large;
+    background-color: var(--first-color);
+    border-bottom-left-radius: 1rem;
+}
+
+#text-input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+#output{
+    border: 1px solid black;
+    width: 50%;
+    margin:  1rem auto;
+    padding: 1rem;
+    text-align: center;
+    height: 10vh;
+}
+#main{
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+#main #btn-translate{
+    background-color: var(--first-color);
+    font-size: 30px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0rem;
+    border-radius: 1rem;
+    color: var(--font-color);
+}
+#main #output-intro{
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* footer style */
+.footer {
+    margin: 3rem auto;
+    text-align: center;
+    text-align: center;
+    background-color: var(--first-color);
+    margin: 0rem auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-bottom-left-radius: 1rem;
+}
+  .footer a {
+    text-decoration: none;
+    color: var(--font-color);
+  }
+  
+  .footer .footer-list {
+    margin: 1rem auto;
+    list-style: none;
+  }
+  .footer .footer-list .footer-list-item {
+    display: inline-flex;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem auto;
+    flex-direction: column;
+  }
+  .footer-list a {
+    text-decoration: none;
